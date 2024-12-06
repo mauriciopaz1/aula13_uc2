@@ -1,0 +1,31 @@
+# Ignorar arquivos de compilação
+*.o
+*.a
+*.so
+*.exe
+*.out
+
+# Ignorar arquivos de log
+*.log
+
+# Ignorar pastas específicas
+node_modules/
+bin/
+obj/
+
+# Ignorar arquivos temporários do sistema operacional
+.DS_Store   # Para macOS
+Thumbs.db   # Para Windows
+*.swp       # Arquivos temporários do Vim
+
+# Ignorar arquivos de IDEs
+.vscode/
+.idea/
+
+# Ignorar arquivos específicos de ambientes Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.env
+/dados
